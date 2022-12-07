@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Historia from './Pages/Historia/Historia';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
+import Tanto from './Pages/Tanto/Tanto';
+import Momentos from './Pages/Momentos/Momentos';
 
 function App() {
   return (
@@ -11,10 +13,12 @@ function App() {
       <>
         <Router>
           <Navbar />
-          <div className="container">
+          <div className="m-container">
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/ourHistory' element={<Historia />} />
+              <Route path='/loveSoMuch' element={<Tanto/>}/>
+              <Route path='/moments' element={<Momentos />}/>
             </Routes>
           </div>
           <Footer />
