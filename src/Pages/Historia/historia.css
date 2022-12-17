@@ -1,0 +1,28 @@
+.historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: orange;
+    padding: 3rem 0;
+}
+
+.title-h {
+    text-align: center;
+}
+
+.hist {
+    width: 60%;
+    margin-top: 1.5rem;
+}
+
+.img-h {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.image {
+    height: 100%;
+    width: 60%;
+}

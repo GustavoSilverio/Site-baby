@@ -7,9 +7,9 @@ const Navbar = () => {
         <nav>
             <Link to='/'><h1 className='title'>L + G</h1></Link>
             <ul className='list'>
-            <Link to='/ourHistory'><li>Nossa história</li></Link>
-            <Link to='/loveSoMuch'><li>Porque te amo tanto</li></Link>
-            <Link to='/moments'><li>Momentos</li></Link>
+                <Link to='/ourHistory'><li>Nossa história</li></Link>
+                <Link to='/moments'><li>Momentos</li></Link>
+                <Link to='/loveSoMuch'><li>Porque te amo tanto</li></Link>
             </ul>
         </nav>
     );

@@ -1,0 +1,43 @@
+.tanto {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    padding: 3rem 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video {
+    background-color: #000;
+    height: 450px;
+    width: 15rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.video h1 {
+    color: #fff;
+    text-align: center;
+    transition: .2s;
+}
+
+.video h1:hover {
+    color: orange;
+}
+
+.title-t {
+    width: 50%;
+    text-align: center;
+}
+
+@media only screen and (max-width:340px) {
+    .title-t {
+        width: 100%;
+    }
+}
